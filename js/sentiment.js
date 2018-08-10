@@ -105,7 +105,7 @@ Highcharts.chart('container', {
             y: 11,
             myTitle: 'Reunification of children under the age of 5',
             myDate: 'June 12',
-            myText: 'The Trump Administration completes reunification for eligible children under the age of 5. According to the Department of Justice, at this point 57 of the 103 children have been reunified',
+            myText: 'The Trump administration completes reunification for eligible children under the age of 5. According to the Department of Justice, at this point 57 of the 103 children have been reunified.',
             marker: {
                 symbol: 'diamond',
                 radius: 8,
@@ -121,9 +121,9 @@ Highcharts.chart('container', {
             myText: ''
         }, {
             y: 13,
-            myTitle: 'Hundreds march in protest',
+            myTitle: '2,000 children separated from families',
             myDate: 'June 15',
-            myText: 'The Department of Homeland Security announces that nearly 2,000 children have been separated during the  zero-tolerance initiative. The announcement cues hundreds to march for the “Families Belong Together” movement.',
+            myText: 'The Department of Homeland Security announces that nearly 2,000 children have been separated during the zero-tolerance initiative. The announcement prompts hundreds to march for the “Families Belong Together” movement.',
             marker: {
                 symbol: 'diamond',
                 radius: 8,
@@ -139,7 +139,7 @@ Highcharts.chart('container', {
             myText: ''
         }, {
             y: 34, 
-            myTitle: 'The administration is "doing its job"',
+            myTitle: 'The administration is \'doing its job\'',
             myDate: 'June 18',
             myText: 'Homeland Security Secretary Kirstjen Nielsen says the adminstration "will not apologize" for separating families at the border, claiming the agency was just doing its job.',
             marker: {
@@ -151,7 +151,7 @@ Highcharts.chart('container', {
             y: 61, 
             myTitle: 'Republicans separate from Trump',
             myDate: 'June 19',
-            myText: 'The G.O.P moves to end the separation of families at the border – a decision that divided Republicans from President Trump.',
+            myText: 'The GOP moves to end the separation of families at the border — a decision that caused some Republicans to disagree with President Donald Trump.',
             marker: {
                 symbol: 'diamond',
                 radius: 8,
@@ -159,7 +159,7 @@ Highcharts.chart('container', {
             }
         }, {
             y: 56,
-            myTitle: 'The executive order post public pressure',
+            myTitle: 'President signs executive order to reunite families',
             myDate: 'June 20',
             myText: 'Trump signs an executive order to keep families together at the U.S. Mexico border after an explosive public outrage. “I didn’t like the sight or feeling of families being separated,” Trump said.',
             marker: {
