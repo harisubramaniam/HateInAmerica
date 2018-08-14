@@ -1,4 +1,3 @@
-// $(function() {
 (function(H) {
     function deferRender(proceed) {
         var series = this,
@@ -31,7 +30,8 @@ Highcharts.chart('container', {
 
     chart: {
         backgroundColor: '#EFEEE8',
-        type: 'bar'
+        type: 'bar',
+        spacingLeft: 50
     },
 
     credits: {
@@ -52,9 +52,14 @@ Highcharts.chart('container', {
     },
 
     xAxis: {
-        categories: ['OSU', 'Keene State', 'Wisconsin', 'Nassau CC', 'Metropolitan State', 'IU - Purdue', 'Onondaga CC', 'Akron', 'Dartmouth', 'Santa Monica', 'Roxbury CC', 'Montana State', 'Brown', 'Salem College', 'Harvard ', 'U of Michigan', 'Southern California', 'Cornell'],
+        categories: ['Ohio State', 'Keene State', 'Wisconsin', 'Nassau CC', 'Metropolitan', 'IUPUI', 'Onondaga CC', 'Akron', 'Dartmouth', 'Santa Monica', 'Roxbury CC', 'Montana St.', 'Brown', 'Salem College', 'Harvard ', 'Michigan', 'So. California', 'Cornell'],
         title: {
             text: null
+        },
+        labels: {
+            style: {
+                fontSize: '10px'
+            }
         }
     },
 
@@ -305,4 +310,3 @@ Highcharts.chart('container', {
     }
 
 });
-// });

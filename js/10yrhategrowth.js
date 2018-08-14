@@ -59,7 +59,7 @@ Highcharts.chart('container', {
         label: {
           connectorAllowed: false
         },
-        pointStart: 2005
+        pointStart: 2006
       }
     },
 
@@ -71,7 +71,7 @@ Highcharts.chart('container', {
 
     series: [{
       name:"Hate crimes reported",
-      data: [44, 74, 48, 60, 947, 1198, 938, 998, 975, 1021, 1043, 1300],
+      data: [74, 48, 60, 947, 1198, 938, 998, 975, 1021, 1043, 1300],
       color: '#A10D03'
     }],
   

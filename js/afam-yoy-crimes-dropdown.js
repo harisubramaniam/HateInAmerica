@@ -33,7 +33,7 @@ function get2012Map () {
                 spacingTop: 15
             },
             title: {
-                text: '',
+                text: null,
                 style: {
                     fontWeight: '700',
                     fontSize: '1.5em',
@@ -41,7 +41,7 @@ function get2012Map () {
                 }
             },
             subtitle: {
-                text: 'Hover on counties to see data',
+                text: null,
                 style: {
                     fontWeight: '400',
                     fontFamily: 'Roboto Mono'
@@ -172,7 +172,7 @@ function get2013Map () {
                 spacingTop: 15
             },
             title: {
-                text: '',
+                text: null,
                 style: {
                     fontWeight: '700',
                     fontSize: '1.5em',
@@ -180,7 +180,7 @@ function get2013Map () {
                 }
             },
             subtitle: {
-                text: 'Hover on counties to see data',
+                text: null,
                 style: {
                     fontWeight: '400',
                     fontFamily: 'Roboto Mono'
@@ -311,7 +311,7 @@ function get2014Map () {
                 spacingTop: 15
             },
             title: {
-                text: '',
+                text: null,
                 style: {
                     fontWeight: '700',
                     fontSize: '1.5em',
@@ -319,7 +319,7 @@ function get2014Map () {
                 }
             },
             subtitle: {
-                text: 'Hover on counties to see data',
+                text: null,
                 style: {
                     fontWeight: '400',
                     fontFamily: 'Roboto Mono'
@@ -450,7 +450,7 @@ function get2015Map () {
                 spacingTop: 15
             },
             title: {
-                text: '',
+                text: null,
                 style: {
                     fontWeight: '700',
                     fontSize: '1.5em',
@@ -458,7 +458,7 @@ function get2015Map () {
                 }
             },
             subtitle: {
-                text: 'Hover on counties to see data',
+                text: null,
                 style: {
                     fontWeight: '400',
                     fontFamily: 'Roboto Mono'
@@ -589,7 +589,7 @@ function get2016Map () {
                 spacingTop: 15
             },
             title: {
-                text: '',
+                text: null,
                 style: {
                     fontWeight: '700',
                     fontSize: '1.5em',
@@ -597,7 +597,7 @@ function get2016Map () {
                 }
             },
             subtitle: {
-                text: 'Hover on counties to see data',
+                text: null,
                 style: {
                     fontWeight: '400',
                     fontFamily: 'Roboto Mono'

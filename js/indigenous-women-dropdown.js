@@ -37,7 +37,7 @@ function get2014Map() {
                 backgroundColor: '#EFEEE8'
             },
             title: {
-                text: '',
+                text: null,
                 floating: true,
                 verticalAlign: 'top',
                 margin: 0,
@@ -57,7 +57,7 @@ function get2014Map() {
                 enabled: true,
                 useHTML: true,
                 headerFormat: '',
-                pointFormat: '<b>{point.name}</b><br/>&nbsp;<b>Missing Indigenous women:</b>&nbsp;{point.value}'
+                pointFormat: '<b>{point.name}</b><br/><b>Missing Indigenous women:</b>&nbsp;{point.value}'
             },
             colorAxis: {
                 dataClasses: [{
@@ -157,7 +157,7 @@ function get2015Map() {
                 backgroundColor: '#EFEEE8'
             },
             title: {
-                text: 'Missing indigenous women in 2015',
+                text: null,
                 floating: true,
                 verticalAlign: 'top',
                 margin: 0,
@@ -177,7 +177,7 @@ function get2015Map() {
                 enabled: true,
                 useHTML: true,
                 headerFormat: '',
-                pointFormat: '<b>{point.name}</b><br/>&nbsp;<b>Missing Indigenous women:</b>&nbsp;{point.value}'
+                pointFormat: '<b>{point.name}</b><br/><b>Missing Indigenous women:</b>&nbsp;{point.value}'
             },
             colorAxis: {
                 dataClasses: [{
@@ -233,7 +233,7 @@ function get2015Map() {
                 name: 'Missing Indigenous Women 2015',
                 states: {
                     hover: {
-                        color: 'rgba(23, 23, 23, .7)'
+                        color: 'rgba(23, 23, 23, 1)'
                     }
                 },
                 dataLabels: {
@@ -257,7 +257,7 @@ function get2016Map() {
     Highcharts.setOptions({
         chart: {
             style: {
-                fontFamily: 'Roboto'
+                fontFamily: 'Roboto Mono'
             }
         },
         credits: {
@@ -277,7 +277,7 @@ function get2016Map() {
                 backgroundColor: '#EFEEE8'
             },
             title: {
-                text: '',
+                text: null,
                 floating: true,
                 verticalAlign: 'top',
                 margin: 0,
@@ -297,7 +297,7 @@ function get2016Map() {
                 enabled: true,
                 useHTML: true,
                 headerFormat: '',
-                pointFormat: '<b>{point.name}</b><br/>&nbsp;<b>Missing Indigenous women:</b>&nbsp;{point.value}'
+                pointFormat: '<b>{point.name}</b><br/><b>Missing Indigenous women:</b>&nbsp;{point.value}'
             },
             colorAxis: {
                 dataClasses: [{
@@ -353,7 +353,7 @@ function get2016Map() {
                 name: '',
                 states: {
                     hover: {
-                        color: 'rgba(23, 23, 23, .8)'
+                        color: 'rgba(23, 23, 23, 1)'
                     }
                 },
                 dataLabels: {

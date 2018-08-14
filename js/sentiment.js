@@ -91,7 +91,7 @@ Highcharts.chart('container', {
 
     series: [{
         name:"Hate crimes reported",
-        color: 'rgba(172, 173, 175, .5)',
+        color: 'rgb(23, 23, 23)',
         data: [
         {
             y: 12, 

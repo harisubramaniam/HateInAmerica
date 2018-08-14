@@ -5,18 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Top 18</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery.min.js"></script>
     <script src="js/iframeResizer.contentWindow.min.js"></script>
     <script src="js/jquery.appear.iframe.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet">
-    <link href="css/graphics-hia.css" rel="stylesheet">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/graphics-hia.css" rel="stylesheet"></head>
     
 </head>
 <body>
-    <h2 class="text-center graphics-hed">@@Hate crimes reported by universities in 2015, 2016@@</h2>
-    <p class="text-center graphics-subhed">@@Ohio State University experienced the largest increase in reported hate crimes,going from 4 hate crimes in 2015to 32 hate crimes in 2016@@</p>
-    <div id="container" class="hia-graphic" data-appear-top-offset="-300"></div>
-    <script src="js/highcharts.js"></script>
-    <script src="js/top18.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2 class="graphics-hed">Universities reporting most hate incidents in 2016</h2>
+                <p class="graphics-subhed">Ohio State University, with one of the oldest bias-response teams, experienced the largest increase in reported hate incidents between 2015 to 2016. It's not clear if the increases reflect more incidents or an increase in reporting.</p>
+                <div id="container" class="hia-graphic" data-appear-top-offset="-300"></div>
+                <p class="graphics-source">SOURCE: U.S. Department of Education, Office of Postsecondary Education, Campus Safety and Security (CSS) survey.</p>
+            </div>
+        </div>
+    </div>
+        <script src="js/highcharts.js"></script>
+        <script src="js/top18.js"></script>
 </body>
 </html>

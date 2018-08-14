@@ -5,24 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Year-over-Year</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/iframeResizer.contentWindow.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="js/iframeResizer.contentWindow.min.js"></script>
     <link href="css/graphics-hia.css" rel="stylesheet"></head>
     </style>
 </head>
 <body>
-    <h2 class="text-center graphics-hed">Crimes committed against the black community in <select class="form-control" id="select-year" style="width: 115px; height: 50px;" onchange="update_maps(this);">
-                <option value="2012" selected="selected">2012</option>
-                <option value="2013">2013</option>
-                <option value="2014">2014</option>
-                <option value="2015">2015</option>
-                <option value="2016">2016</option>
-            </select>
-        </h2>
-    <p class="text-center graphics-subhed">@@Reported hate crimes have seen a 2854.5% increase since 2005. In year 2016, the number of reported hate crimes was 1,300. This is based on 6,506 institutions with 11,260 campuses.<br>The crime data reported by the institutions have not been subjected to independent verification by the U.S. Department of Education. Therefore, the Department cannot vouch for the accuracy of the data reported here.@@</p>
-    <div id="container2" style="height: 600px; min-width: 310px; max-width: 750px; margin: 0 auto"> </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <h2 class="graphics-hed">Crimes committed against the black community in <select class="form-control" id="select-year" style="width: 115px; height: 50px; color:#a10d03 !important;" onchange="update_maps(this);">
+                            <option value="2012" selected="selected">2012</option>
+                            <option value="2013">2013</option>
+                            <option value="2014">2014</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                        </select>
+                </h2>
+                <p class="graphics-subhed">Between 2012 and 2016, 16.6 million black Americans on average lived in a county that reported no anti-black hate crimes.</p>
+                <div id="container2" style="height: 600px; min-width: 310px; max-width: 750px; margin: 0 auto"> </div>
+                 <p class="graphics-source">SOURCE: FBI Uniform Crime Reporting statistics</p>
+            </div>
+        </div>
+    </div>
 
     <!-- Placed at the end of the document so the page loads faster -->
     <script src="js/highmaps.js"></script>

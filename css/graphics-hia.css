@@ -7,7 +7,7 @@ body {
 .graphics-hed {
 	font-weight: 700;
 	text-transform: uppercase;
-	font-size: 1.8rem;
+	font-size: 20px;
 }
 
 .graphics-subhed {
@@ -28,7 +28,7 @@ select.form-control {
 	appearance: none;
 	display: inline;
 	font-family: 'Roboto Mono', monospace;
-	font-size: 1.8rem;
+	font-size: 22px;
 	font-weight: bold;
 	border-color: transparent;
 	background: url(dropdownarrow.png) right / 2rem no-repeat;
